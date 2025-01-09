@@ -1,0 +1,175 @@
+.Home_Moving_Logo {
+  width: 50vw;
+  height: 60vh;
+  object-fit: contain;
+}
+.Home_wrap {
+  display: flex;
+  margin-left: 16vw;
+  margin-right: 16vw;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 83vh;
+  overflow-y: hidden;
+}
+@media (max-width: 1000px) {
+  .Home_wrap {
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Home_Moving_Logo {
+    width: 70vw;
+    height: 60vw;
+    object-fit: contain;
+  }
+}
+
+.Home_Welcome {
+  font-family: "Lobster";
+  font-size: 5vh;
+  color: #e83a4b;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Home_Rainbow {
+  font-size: 2vh;
+  color: #e83a4b;
+  text-align: center;
+  font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .Home_Rainbow {
+    margin-bottom: 120px;
+  }
+}
+
+.Home_Moving_Logo:hover {
+  transform: rotate(360deg);
+  transition: transform 7s;
+}
+
+/*Beans*/
+.Beans_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 16vw;
+  margin-right: 16vw;
+  justify-content: center;
+}
+@media (max-width: 1000px) {
+  .Beans_wrap {
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.Beans_headline {
+  font-family: "Lobster";
+  font-size: 4vh;
+  text-align: center;
+  margin-bottom: 4vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*Review   */
+form {
+  width: 400px;
+  background-color: white;
+  border-radius: 1vh;
+  border: 1px solid #e83a4b;
+  text-align: center;
+  font-size: 2vh;
+  font-weight: 700;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 450) {
+  form {
+    width: 96%;
+  }
+}
+
+.label1 {
+  width: 96%;
+  text-align: center;
+}
+
+.input1 {
+  width: 95%;
+  height: 3vh;
+
+  margin-bottom: 1vh;
+  border: 1px solid #e83a4b;
+  border-radius: 6px;
+  outline: #e83a4b;
+  color: #e83a4b;
+  font-size: 1.8vh;
+  background-color: #f0e3e4;
+}
+.input1:focus {
+  border: 1px solid #e83a4b;
+}
+
+button {
+  color: #e83a4b;
+  font-size: 2vh;
+  font-weight: 600;
+  padding: 8px 12px;
+  border: 1px solid #e83a4b;
+  border-radius: 5vh;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #f0e3e4;
+}
+
+button:hover {
+  border: 1px solid #e83a4b;
+  text-decoration: underline;
+}
+
+.textarea {
+  width: 95%;
+  border: 1px solid #e83a4b;
+  border-radius: 6px;
+  padding: 10px 15px;
+  background-color: transparent;
+  color: #e83a4b;
+  outline: #e83a4b;
+  overflow-x: hidden;
+  font-size: 1.8vh;
+  background-color: #f0e3e4;
+}
+.textarea:focus {
+  border: 1px solid #e83a4b;
+}
+
+.review_wrap {
+  min-height: 83vh;
+  box-sizing: border-box;
+}
+
+.l {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 4vh;
+  min-height: 83vh;
+  overflow-y: hidden;
+}

@@ -1,0 +1,27 @@
+a {
+  margin-left: 1vw;
+  color: #e83a4b;
+  text-decoration: none;
+  padding: 0.5vw;
+  /* font-family: "Lobster";*/
+  font-size: 2vh;
+  border-radius: 1vw;
+  border: 1px solid transparent;
+}
+
+a:hover {
+  color: #e83a4b;
+  text-decoration: none;
+  border-radius: 1vw;
+  border: 1px solid #e83a4b;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 1000px) {
+  .wrap {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: white;
+  color: #e83a4b;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("./fonts/Lobster.otf");
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 2vh;
+}

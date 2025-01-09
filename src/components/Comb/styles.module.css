@@ -1,0 +1,22 @@
+.wrap {
+  width: 280px;
+  /*height: 300px;*/
+  border: 1px solid rgb(224, 209, 209);
+  border-radius: 10px;
+  text-align: center;
+  padding: 0.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+.img:hover {
+  transform: rotate(360deg);
+  transition: transform 7s;
+}
+.description {
+  font-size: 1.6vh;
+}
