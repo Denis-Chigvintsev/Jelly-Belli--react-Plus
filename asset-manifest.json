@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Jelly-Belli--react-Plus/static/css/main.8bd1f49b.css",
-    "main.js": "/Jelly-Belli--react-Plus/static/js/main.49253b3c.js",
+    "main.js": "/Jelly-Belli--react-Plus/static/js/main.f37cf008.js",
     "static/media/main.gif": "/Jelly-Belli--react-Plus/static/media/main.cc7e21a48fb14a37a2c2.gif",
     "static/media/logo.png": "/Jelly-Belli--react-Plus/static/media/logo.799a6a76d33db1724b5c.png",
     "static/media/Lobster.otf": "/Jelly-Belli--react-Plus/static/media/Lobster.b14163295fb2970f1118.otf",
     "index.html": "/Jelly-Belli--react-Plus/index.html",
     "main.8bd1f49b.css.map": "/Jelly-Belli--react-Plus/static/css/main.8bd1f49b.css.map",
-    "main.49253b3c.js.map": "/Jelly-Belli--react-Plus/static/js/main.49253b3c.js.map"
+    "main.f37cf008.js.map": "/Jelly-Belli--react-Plus/static/js/main.f37cf008.js.map"
   },
   "entrypoints": [
     "static/css/main.8bd1f49b.css",
-    "static/js/main.49253b3c.js"
+    "static/js/main.f37cf008.js"
   ]
 }
